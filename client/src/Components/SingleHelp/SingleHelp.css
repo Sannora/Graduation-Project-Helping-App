@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.singlehelp-component-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(25, 19, 8, 0.1);
+}
+
+.singlehelp-header{
+    background-color: #3B55D9;
+    padding: 16px 8px;
+    box-shadow: 0px 10px 5px 0px rgba(25, 19, 8, 0.2);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.singlehelp-header-utility{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.close-help-ticket{
+    color: #FFF;
+}
+
+.singlehelp-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.singlehelp-header hr{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    margin-bottom: 16px;
+}
+
+.singlehelp-interests{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.singlehelp-interests li{
+    background-color: #FFF;
+    padding: 4px 16px;
+    border-radius: 48px;
+    color: #191308;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.help-body{
+    padding: 24px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #303030;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.help-body h1{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.help-description{
+    text-align: justify;
+}
+
+.help-description p + p{
+    margin-top: 16px;
+}
+
+.singlehelp-username{
+    text-align: end;
+    padding: 16px 8px;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.singlehelp-utility{
+    display: flex;
+    justify-content: center;
+}
+
+.singlehelp-button-positive{
+    background-color: #3B55D9;
+    font-size: 16px;
+    padding: 8px 16px;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    width: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.singlehelp-button-positive:hover{
+    background-color: #FFCE35;
+}
+
+/* Desktop Responsive Query */
+@media screen and (min-width: 768px) {
+
+.singlehelp-component-container{
+    width: 75%;
+}
+
+.singlehelp-header{
+    padding: 16px;
+}
+
+.singlehelp-title{
+    margin-bottom: 8px;
+}
+
+.singlehelp-header hr{
+    margin-bottom: 24px;
+}
+
+.singlehelp-interests li{
+    font-size: 16px;
+}
+
+.help-body{
+    padding: 24px 16px;
+}
+
+.help-body h1{
+    margin-bottom: 16px;
+}
+
+.help-description p + p{
+    margin-top: 32px;
+}
+
+.singlehelp-utility{
+    justify-content: left;
+    padding: 8px 16px;
+}
+
+.singlehelp-button-positive{
+    width: 20%;
+}
+
+}
